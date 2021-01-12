@@ -12,7 +12,7 @@ library(ggrepel)
 sample_dir <- "./Hackathon_2020/"
 setwd(sample_dir)
 library(maptools)
-local_fir_dir <- "./Hackathon_2020/china/" # local the .shp file is stored  
+local_fir_dir <- "./Hackathon_2020/chinamap/" # local the .shp file is stored  
 china_map <- rgdal::readOGR(paste0(local_fir_dir, "bou2_4p.shp"))
 
 # extract province information from shap file
